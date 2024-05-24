@@ -20,5 +20,9 @@ For street locations, Openstreetmap extracts are also needed along with the shap
 
 
 ## step-3: get google cloud api key.
-*Folow the instructions on the [google api page](https://developers.google.com/maps/documentation/streetview/overview) to see instrutions on obtaining the api key.
+* Follow the instructions on the [google api page](https://developers.google.com/maps/documentation/streetview/overview) to see instrutions on obtaining the api key.
 * Put the api key in the `streetview_downloader.py`, `google_key` variable.
+
+
+## step-4: run `streetview_downloader.py`
+* Finally run the python downloader script. You should find images in a directory named `images` 
